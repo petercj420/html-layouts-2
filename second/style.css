@@ -1,0 +1,29 @@
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: lightgrey;
+}
+.container{
+	background-color: white;
+}
+
+#first{
+	height: 30%;
+	width: 100%;
+	display: flex;
+}
+#second{
+	height: 62%;
+	width: 100%;
+	display: flex;
+}
+
+#wrap{
+	height: 90%;
+	width: 90%;
+	margin: 0-auto;
+}
+
