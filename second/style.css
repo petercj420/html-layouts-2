@@ -5,25 +5,101 @@ html, body {
 	padding: 0;
 	margin: 0;
 	background-color: lightgrey;
-}
-.container{
-	background-color: white;
-}
-
-#first{
-	height: 30%;
-	width: 100%;
 	display: flex;
-}
-#second{
-	height: 62%;
-	width: 100%;
-	display: flex;
+	justify-content: center;
 }
 
 #wrap{
 	height: 90%;
 	width: 90%;
 	margin: 0-auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container{
+	background-color: white;
+	margin-left: 20px;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
 
+#first{
+	height: 30%;
+	width: 95%;
+}
+#second{
+	height: 60%;
+	width: 95%;
+	
+}
+
+
+
+.imgr{
+	margin-top: 25px;
+	height: 40%;
+	width: 95%;
+}
+
+p {
+	height: 40%;
+	width: 95%;
+	font-size: 20px;
+}
+
+.buttons {
+	height: 50%;
+	width: 95%;
+	color: white;
+	margin-bottom: 3%;
+}
+.btn1{
+	height: 60%;
+	width: 14%;
+	color: white;
+	font-size: 24px;
+	background-color: red;
+	background-image: none;
+	margin-right: 2%;
+	padding: 0;
+	border: none;
+
+}
+
+.btn2{
+	height: 70%;
+	width: 14%;
+	color: white;
+	font-size: 24px;
+	background-color: lightblue;
+	background-image: none;
+	padding: 0;
+	border: none;
+
+}
+
+#footer{
+	margin-top: 20px;
+	background-color: #292929;
+	height: 70px;
+	position: relative;
+	clear: both;
+	width: 100%;
+	display: flex;
+}
+
+.guy{
+	margin: 20px 20px 20px 20px;
+	color: white;
+	float: right;
+	height:100%;
+	font-size: 20px;
+}
+.spacer{
+	width: 78%;
+	height: 100%;
+}
